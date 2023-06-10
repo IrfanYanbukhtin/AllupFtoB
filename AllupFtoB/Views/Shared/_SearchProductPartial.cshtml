@@ -1,0 +1,9 @@
+﻿
+@model List<Product>
+
+    @foreach (var item in Model)
+{
+    <li class="d-flex px-3">
+            @item.Title
+    </li>
+}
